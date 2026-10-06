@@ -1,0 +1,1 @@
+- [Dirty tree commits](dirty_tree.md) — files with user's uncommitted edits or untracked can't be committed per-hunk; leave uncommitted, tell reviewer

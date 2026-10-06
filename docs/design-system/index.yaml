@@ -1,0 +1,72 @@
+# GENERATED FILE - do not hand-edit.
+# Edit frontmatter in the .md files under this directory
+description: |-
+  Design system reference for Cradle web. Read this once per task that
+  touches visual design tokens, layout, or component specs. Match the task
+  against `triggers` below, then read only the doc(s) you need - never the
+  whole design-system tree. Once inside a doc, its own frontmatter `related`
+  lists ids - resolve those back through this index to find their paths.
+docs:
+  - id: foundations.color
+    path: 01-foundations/color.md
+    summary: >-
+      TODO - color palette, semantic tokens (bg/fg/border/state), dark mode
+      mapping. (file is empty, pending content)
+    triggers: [color, palette, hex, dark mode, semantic color, contrast]
+  - id: foundations.elevation
+    path: 01-foundations/elevation.md
+    summary: TODO - elevation description
+    triggers: [elevation, box-shadow, heirarchy, shadow]
+  - id: foundations.radius
+    path: 01-foundations/radius.md
+    summary: TODO - radius description
+    triggers: [radius, corner-radius, border radius, rounded]
+  - id: foundations.spacing
+    path: 01-foundations/spacing.md
+    summary: >-
+      TODO - spacing scale and usage rules for padding/margin/gap. (file is
+      empty, pending content)
+    triggers: [spacing, padding, margin, gap, scale]
+  - id: foundations.typography
+    path: 01-foundations/typography.md
+    summary: >-
+      Type scale, font families/weights, line-height rules, approved
+      heading+body pairings, and usage rules.
+    triggers: [font, type, typography, type scale, heading, weight, line-height]
+  - id: layout.dialog
+    path: 02-layout/dialog.md
+    summary: >-
+      TODO - dialog/modal sizing, layout, and usage rules. (file is empty,
+      pending content)
+    triggers: [dialog, modal, overlay, sheet]
+  - id: navigation.sidebar
+    path: 03-navigation/sidebar.md
+    summary: >-
+      TODO - sidebar structure, navigation item states, collapse/expand
+      behavior. (file is empty, pending content)
+    triggers: [sidebar, nav, navigation, menu item, collapse]
+  - id: actions.buttons
+    path: 04-actions/buttons.md
+    summary: >-
+      Button variants (primary/secondary/destructive/ghost/link) and sizes,
+      incl. icon-only. When to use which, one-primary-per-form rule.
+    triggers: [button, save, cancel, submit, delete, primary action, destructive action, icon button, cta]
+  - id: data-input.input
+    path: 05-data-input/input.md
+    summary: >-
+      Text input component, plus which field component to reach for (Input vs
+      TagInput vs RangeInput) and how to wire labels/validation via Form
+      components.
+    triggers: [input, text field, form field, form, label, validation, error state]
+  - id: data-display.tables
+    path: 06-data-display/tables.md
+    summary: >-
+      TODO - table layout, row states, sorting/filtering UI. (file is empty,
+      pending content)
+    triggers: [table, row, column, sort, filter]
+  - id: feedback.toast
+    path: 07-feedback/toast.md
+    summary: >-
+      TODO - toast placement, variants, and dismissal behavior. (file is empty,
+      pending content)
+    triggers: [toast, notification, snackbar, alert]
